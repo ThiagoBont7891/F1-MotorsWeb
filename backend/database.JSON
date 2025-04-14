@@ -1,0 +1,74 @@
+{
+  "Conteudos": [
+    {
+      "id": "001",
+      "favorito": true,
+      "carro": "RB-16B",
+      "descricao": "V6 Honda turbo híbrido Gasolina sintética Semi-automático 8 marchas",
+      "ano": "2021 / Pilotos 🏆",
+      "corridas": "22 Corridas",
+      "piloto": "Max Verstappen",
+      "valor": "33.000.000,00"
+    },
+    {
+      "id": "002",
+      "favorito": false,
+      "carro": "F2002",
+      "descricao": "V10 Ferrari 3.0 Gasolina Semi-automático 7 marchas",
+      "ano": "2002 / Campeão 🏆🏆",
+      "corridas": "17 Corridas",
+      "piloto": "Michael Schumacher",
+      "valor": "6.643.750,00"
+    },
+    {
+      "id": "003",
+      "favorito": false,
+      "carro": "W11 EQ",
+      "descricao": "V6 Mercedes turbo híbrido Gasolina sintética Semi-automático 8 marchas",
+      "ano": "2020 / Campeão 🏆🏆",
+      "corridas": "17 Corridas",
+      "piloto": "Lewis Hamilton",
+      "valor": "19.000.000,00"
+    },
+    {
+      "id": "004",
+      "favorito": false,
+      "carro": "F2007",
+      "descricao": "V8 Ferrari 2.4 Gasolina Semi-automático 7 marchas",
+      "ano": "2007 / Campeão 🏆🏆",
+      "corridas": "17 Corridas",
+      "piloto": "Kimi Raikkonen",
+      "valor": "12.000.000,00"
+    },
+    {
+      "id": "005",
+      "favorito": false,
+      "carro": "MP4/4",
+      "descricao": "V6 Honda 1.5 Turbo Gasolina Manual 6 marchas",
+      "ano": "1988 / Campeão 🏆🏆",
+      "corridas": "16 Corridas",
+      "piloto": "Ayrton Senna",
+      "valor": "14.500.000,00"
+    },
+    {
+      "id": "006",
+      "favorito": false,
+      "carro": "F2008",
+      "descricao": "V8 Ferrari 2.4 Gasolina Semi-automático 7 marchas",
+      "ano": "2008 / Campeão Moral 🏆",
+      "corridas": "18 Corridas",
+      "piloto": "Felipe Massa",
+      "valor": "10.000.000,00"
+    },
+    {
+      "id": "007",
+      "favorito": false,
+      "carro": "RB7",
+      "descricao": "V8 Renault 2.4 Gasolina Semi-automático 7 marchas",
+      "ano": "2011 / Campeão 🏆🏆",
+      "corridas": "19 Corridas",
+      "piloto": "Sebastian Vettel",
+      "valor": "15.200.000,00"
+    }
+  ]
+}

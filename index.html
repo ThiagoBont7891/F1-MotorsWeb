@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1 motorsWeb</title>
+    <link rel="stylesheet" href="/style.css/style.css" />
+  </head>
+  <body>
+    <main class="Main">
+      <header class="header">
+        <section class="headertop">
+          <img
+            src="assets/icones/F1logo-barra.svg"
+            alt="logo F1 trademark"
+            class="logo"
+          />
+          <div class="headerIcons">
+            <form class="searchBar" aria-placeholder="Digite aqui sua pesquisa">
+              <div class="headerSearchBar">
+                <button>
+                  <img
+                    src="assets/icones/cancelar-barra.svg"
+                    id="searchcancelarIcon"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="assets/icones/pesquisar-barra.svg"
+                    id="searchpesquisarIcon"
+                  />
+                </button>
+              </div>
+            </form>
+            <button id="headerAccountIcon">
+              <img src="assets/icones/conta-barra.svg" id="headerIcon" />
+            </button>
+            <button id="headerCartIcon">
+              <img src="assets/icones/carrinho-barra.svg" id="headerIcon" />
+            </button>
+          </div>
+        </section>
+        <section class="headerbottom">
+          <p class="bottomsubtitulo">motorsWeb</p>
+        </section>
+      </header>
+      <section class="paginaMain">
+        <section class="sideBar">
+          <ul class="listaFiltros" id="listaFiltros">
+            <li class="ItemFiltros">
+              <button class="tituloFiltro" id="filtroFavoritos">
+                Favoritos
+              </button>
+            </li>
+            <div class="ContainerFiltroPadrao">
+              <li class="tituloFiltro">Filtros</li>
+              <ul id="ItemFiltrosPadrao">
+                <li class="FiltrosPadrao">
+                  <button class="opcaoLista" id="botaoFiltroPrecoCresc">
+                    Preço ▲
+                  </button>
+                </li>
+                <li class="FiltrosPadrao">
+                  <button class="opcaoLista" id="botaoFiltroPrecoDecresc">
+                    Preço ▼
+                  </button>
+                </li>
+                <li class="FiltrosPadrao">
+                  <button class="opcaoLista" id="botaoFiltroNovo">Novo</button>
+                </li>
+                <li class="FiltrosPadrao">
+                  <button class="opcaoLista" id="botaoFiltroVintage">
+                    Vintage
+                  </button>
+                </li>
+                <li class="FiltrosPadrao">
+                  <button class="opcaoLista" id="botaoFiltroRequisitados">
+                    Requisitados
+                  </button>
+                </li>
+                <li class="FiltrosPadrao">
+                  <button class="opcaoLista" id="botaoFiltroEquipes">
+                    Equipes
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div class="ContainerFiltroPilotos">
+              <li class="tituloFiltro">Pilotos</li>
+              <ul id="ItemFiltrosPilotos">
+                <li class="FiltrosPilotos">
+                  <button class="opcaoLista" id="botaoFiltroVerstappen">
+                    Max Verstappen
+                  </button>
+                </li>
+                <li class="FiltrosPilotos">
+                  <button class="opcaoLista" id="botaoFiltroSchumacher">
+                    Michael Schumacher
+                  </button>
+                </li>
+                <li class="FiltrosPilotos">
+                  <button class="opcaoLista" id="botaoFiltroRaikkonen">
+                    Kimi Raikkonen
+                  </button>
+                </li>
+                <li class="FiltrosPilotos">
+                  <button class="opcaoLista" id="botaoFilroSenna">
+                    Ayrton Senna
+                  </button>
+                </li>
+                <li class="FiltrosPilotos">
+                  <button class="opcaoLista" id="botaoFiltroHamilton">
+                    Lewis Hamilton
+                  </button>
+                </li>
+                <li class="FiltrosPilotos">
+                  <button class="opcaoLista" id="botaoFiltroMassa">
+                    Felipe Massa
+                  </button>
+                </li>
+                <li class="FiltrosPilotos">
+                  <button class="opcaoLista" id="botaoFiltroVettel">
+                    Sebastian Vettel
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </ul>
+        </section>
+        <section class="container" id="container">
+          <div class="containeritem">
+            <div class="containerAnuncio" id="anuncio">
+              <img id="imagemAnuncio" src="assets/RB-16b.jpg" alt="Imagem " />
+              <h2 class="tituloAnuncio" id="tituloAnuncio">
+                RB-16B - $33.000.000,00
+              </h2>
+              <p class="conteudoAnuncio" id="conteudoAnuncio">
+                V6 Honda turbo hybrido Gasolina sintética Semi-automático 8
+                marchas
+              </p>
+              <div class="footerAnuncio" id="footerAnuncio">
+                <p id="footerconteudo">2021 / Pilotos 🏆</p>
+                <p id="footerconteudo">22 Corridas</p>
+              </div>
+            </div>
+            <div class="containerAnuncio" id="anuncio">
+              <img id="imagemAnuncio" src="assets/F2002.jpg" alt="Imagem " />
+              <h2 class="tituloAnuncio" id="tituloAnuncio">
+                F2002 - $6.643.750,00
+              </h2>
+              <p class="conteudoAnuncio" id="conteudoAnuncio">
+                V10 Ferrari 3.0 Gasolina Semi-automático 7 marchas
+              </p>
+              <div id="footerAnuncio">
+                <p id="footerconteudo">2002 / Campeão 🏆🏆</p>
+                <p id="footerconteudo">17 Corridas</p>
+              </div>
+            </div>
+            <div class="containerAnuncio" id="anuncio">
+              <img id="imagemAnuncio" src="assets/W11.jpg" alt="Imagem " />
+              <h2 class="tituloAnuncio" id="tituloAnuncio">
+                W11 EQ - 19.000.000,00
+              </h2>
+              <p class="conteudoAnuncio" id="conteudoAnuncio">
+                V6 Mercedes turbo hybrido Gasolina sintética Semi-automático 8
+                marchas
+              </p>
+              <div class="footerAnuncio" id="footerAnuncio">
+                <p id="footerconteudo">2020 / Campeão 🏆</p>
+                <p id="footerconteudo">17 Corridas</p>
+              </div>
+            </div>
+          </div>
+          <p class="stripes stripe1"></p>
+          <p class="stripes stripe2"></p>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div class="remendo"></div>
+      <div class="Trademark">
+        <p class="textoTrademark">
+          Unregistered trademark ™ - fictional sale of Goods and Services. NOT
+          to be taken/used under trade agreements
+        </p>
+        <p class="textoTrademark">NOT licensed by Formula 1©</p>
+      </div>
+    </footer>
+  </body>
+</html>
